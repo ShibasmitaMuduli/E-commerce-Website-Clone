@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="addtocart.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="http://127.0.0.1:5500/index.html">
+                    <img
+                        src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png"></a>
+            </div>
+            <div class="explore">
+                <a href="https://www.flipkart.com/plus">
+                    <p>Explore <span>Plus</span>
+                        <img
+                            src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/plus_aef861.png">
+                    </p>
+                </a>
+            </div>
+        </div>
+        <div class="search">
+            <form id="search_form">
+                <input type="text" placeholder="Search for products, brands and more" id="search_input" />
+            </form>
+            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+            <div class="search_box">
+
+            </div>
+        </div>
+        <div class="login">
+            <a href="login.html">Login</a>
+            <div class="login_menu">
+                <div class="login_list">
+                    <div class="login_top">
+                        <p><b>New Customer?</b></p>
+                        <a href="login.html">Sign Up</a>
+                    </div>
+                    <div class="menu_link">
+                        <a href="https://www.flipkart.com/account/?rd=0&link=home_account">
+                            <i class="fa-solid fa-circle-user"></i>
+                            <p>My Profile</p>
+                        </a>
+                        <a href="https://www.flipkart.com/plus">
+                            <i class="fa-solid fa-fan"></i>
+                            <p>Flipkart plus zone</p>
+                        </a>
+                        <a href="https://www.flipkart.com/account/orders?link=home_orders">
+                            <i class="fa-solid fa-folder"></i>
+                            <p>Orders</p>
+                        </a>
+                        <a href="https://www.flipkart.com/wishlist?link=home_wishlist">
+                            <i class="fa-solid fa-heart"></i>
+                            <p>Wishlist</p>
+                        </a>
+                        <a href="https://www.flipkart.com/account/rewards?link=home_rewards">
+                            <i class="fa-solid fa-ticket-simple"></i>
+                            <p>Rewards</p>
+                        </a>
+                        <a href="https://www.flipkart.com/the-gift-card-store?link=home_giftcard">
+                            <i class="fa-solid fa-wallet"></i>
+                            <p>Gift Cards</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="link1">
+            <a href="https://seller.flipkart.com/sell-online/?utm_source=fkwebsite&utm_medium=websitedirect">Become a
+                Seller</a>
+        </div>
+        <div class="more">
+            More
+            <i class="fa-solid fa-angle-down more-flip"></i>
+            <div class="more_menu">
+                <div class="more_list">
+                    <a href="https://www.flipkart.com/communication-preferences/push?t=all">
+                        <i class="fa-solid fa-bell"></i>
+                        <p>Notification Preferences</p>
+                    </a>
+                    <a href="https://www.flipkart.com/communication-preferences/push?t=all">
+                        <i class="fa-solid fa-clipboard-question"></i>
+                        <p>24*7 Customer Care</p>
+                    </a>
+                    <a href="https://advertising.flipkart.com/login?returl=/?otracker=ch_vn_advertise_header">
+                        <i class="fa-solid fa-arrow-trend-up"></i>
+                        <p>Advertise</p>
+                    </a>
+                    <a href="https://www.flipkart.com/mobile-apps?otracker=ch_vn_mobile_apps">
+                        <i class="fa-solid fa-download"></i>
+                        <p>Download App</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="cart">
+            <a href="addtocart.html"></a>
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart</a>
+        </div>
+    </header>
+    <div class="container">
+        <div id="first">
+            <div class="product" id="item1">
+                <img
+                    src="https://rukminim1.flixcart.com/image/416/416/xif0q/smartwatch/o/p/l/-original-imagkf45hye4twke.jpeg?q=70">
+                <div class="title">Noise Icon Buzz</div>
+                <p>₹1,499</p>
+                <button onclick="addToCart(item1)">ADD TO CART</button>
+            </div>
+
+            <div class="product" id="item2">
+                <img
+                    src="https://rukminim1.flixcart.com/image/416/416/xif0q/smartwatch/h/m/e/-original-imagkfm8fgvwjy8y.jpeg?q=70">
+                <div class="title">Fire-Boltt Hurricane</div>
+                <p>₹1,499</p>
+                <button onclick="addToCart(item2)">ADD TO CART</button>
+            </div>
+            <div class="product" id="item3">
+                <img
+                    src="https://rukminim1.flixcart.com/image/416/416/xif0q/smartwatch/o/l/h/-original-imagghz3bxh5cmab.jpeg?q=70">
+                <div class="title">Boult Drift</div>
+                <p>₹1,499</p>
+                <button onclick="addToCart(item3)">ADD TO CART</button>
+            </div>
+            <div class="product" id="item4">
+                <img
+                    src="https://rukminim1.flixcart.com/image/416/416/xif0q/smartwatch/y/7/p/-original-imagp7vwhrjc3sd3.jpeg?q=70">
+                <div class="title">boAt Wave Flex Connect</div>
+                <p>₹1,499</p>
+                <button onclick="addToCart(item4)">ADD TO CART</button>
+            </div>
+        </div>
+        <div id="second">
+            <div class="product" id="item5">
+                <img
+                    src="https://rukminim1.flixcart.com/image/416/416/xif0q/smartwatch/k/n/c/-original-imagk7wrb5ghbmne.jpeg?q=70">
+                <div class="title">Noise Caliber 2 Buzz</div>
+                <p>₹1,499</p>
+                <button onclick="addToCart(item5)">ADD TO CART</button>
+            </div>
+            <div class="product" id="item6">
+                <img
+                    src="https://rukminim1.flixcart.com/image/416/416/xif0q/smartwatch/z/s/8/-original-imagmwgwnhucxn54.jpeg?q=70">
+                <div class="title">alt OG</div>
+                <p>₹1,099</p>
+                <button onclick="addToCart(item6)">ADD TO CART</button>
+            </div>
+            <div class="product" id="item7">
+                <img
+                    src="https://rukminim1.flixcart.com/image/416/416/xif0q/smartwatch/s/a/7/-original-imagzcvgzgsngy4h.jpeg?q=70">
+                <div class="title">boAt Wave Beat</div>
+                <p>₹1,299</p>
+                <button onclick="addToCart(item7)">ADD TO CART</button>
+            </div>
+            <div class="product" id="item8">
+                <img
+                    src="https://rukminim1.flixcart.com/image/416/416/l5ld8y80/smartwatch/0/f/j/-original-imagg8dcbmkgrfdy.jpeg?q=70">
+                <div class="title">Noise Icon 2</div>
+                <p>₹1,699</p>
+                <button onclick="addToCart(item8)">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="cart_items" id="cart">
+            <div class="title">Shopping Cart</div></hr>
+            <div id="title"></div>
+        </div>
+    </div>
+</body>
+
+</html>

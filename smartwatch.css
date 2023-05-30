@@ -1,0 +1,463 @@
+.left{
+    width: 40%;
+    display: block;
+    margin: 2px 5px;
+}
+.watch_images{
+    display: block;
+    width: 8%;
+    margin: 10px 10px;
+}
+.watch_images img{
+    height: 60px;
+    padding: 5px 5px;
+    border: 2px solid #2874f0;
+}
+#img_1{
+    padding: 0px 5px;
+}
+.display{
+    margin: 10px 20px;
+    border: 1px solid rgb(212, 209, 209);
+    height: 450px;
+    width: 450px;
+}
+.display img{
+    height: 420px;
+    margin: 10px 10px;
+    padding: 30px 50px;
+}
+.buttons{
+    display: flex;
+    margin-right: 10px;
+}
+.buttons button{
+    width:100%;
+    border: none;
+    margin: 10px 10px;
+    padding: 20px 30px;
+    color: white;
+    font-weight: 550;
+    font-size: 17px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+.buttons i{
+    padding-right: 5px;
+}
+.addtocart{
+    background-color: rgb(236, 159, 14);
+}
+.buynow{
+    background-color: rgb(240, 78, 19);
+}
+.images_watch{
+    display: flex;
+    height: 460px;
+}
+.right{
+    width: 60%;
+    display: block;
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    justify-content: left;
+    padding: 10px 10px;
+}
+.description h2{
+    font-size: 23px;
+}
+.description a{
+    color: rgb(109, 106, 106);
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
+}
+.price{
+    display: flex;
+    padding-bottom: 20px;
+}
+.price s{
+    position: relative;
+    margin: 0px 10px;
+    margin-top: 10px;
+    color: gray;
+    font-size: 18px;
+}
+.price span{
+    position: relative;
+    margin: 0px 10px;
+    margin-top: 10px;
+    color: green;
+    font-size: 18px;
+    font-weight: 550;
+}
+.offer{
+    padding: 10px 0px;
+    display: flex;
+}
+.offer img{
+    color:green;
+    height: 20px;
+}
+.offer p{
+    padding: 0px 5px;
+}
+#more_offers{
+    color: #2874f0;
+    font-size: 15px;
+    font-weight: 550;
+}
+.warranty{
+    display: flex;
+    margin: 25px 0px;
+}
+.warranty img{
+    padding: 3px 5px;
+    height: 30px;
+    width: 65px;
+    border: 1px solid rgb(206, 205, 205);
+}
+.warranty p{
+    margin-left: 50px;
+    position: relative;
+    margin-top: 8px;
+}
+.warranty a{
+    color: #2874f0;
+    font-size: 15px;
+    margin-top: -2px;
+}
+.delivery{
+    display: flex;
+}
+.delivery span{
+    color: grey;
+    justify-content: left;
+    font-size: 15px;
+    width: 20%;
+    padding-top: 7px;
+}
+.date{
+    display: flex;
+}
+.delivery_pin input{
+    padding: 10px 0px;
+    border: none;
+    border-bottom: 2px solid #2874f0;
+}
+.delivery_pin b{
+    padding: 10px 0px;
+    font-size: 15px;
+}
+.delivery_pin p{
+    padding: 10px 5px;
+    font-size: 15px;
+    color: green;
+    font-weight: 550;
+}
+.delivery_pin s{
+    margin-left: 5px;
+    color: grey;
+}
+.delivery a{
+    color: #2874f0;
+    font-weight: 550;
+    margin-left: -10px;
+}
+.watch_strap span{
+    color: grey;
+    justify-content: left;
+    font-size: 15px;
+    width: 20%;
+    position: relative;
+    top: 15px;
+}
+.straps{
+    display: flex;
+    padding-left: 100px;
+    margin-left: 60px;
+}
+.straps img{
+    height: 50px;
+    padding: 5px 5px;
+    margin: 2px 2px;
+    border: 1px solid rgb(189, 187, 187);
+}
+.highlights{
+    display: flex;
+}
+.highlights span, .seller span{
+    color: grey;
+    justify-content: left;
+    font-size: 15px;
+    width: 20%;
+    margin: 15px 0px;
+    font-weight: 550;
+}
+.points div{
+    display: flex;
+}
+.points p, .seller p{
+    justify-content: left;
+    padding: 0px 30px;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 250px;
+}
+.points i{
+    color: grey;
+    font-size: 5px;
+    margin-top: 20px;
+    padding-left: 5px;
+    display: block;
+}
+.seller div{
+    display: flex;
+}
+.seller i{
+    color: grey;
+    font-size: 5px;
+    margin-top: 20px;
+    margin-left: 160px;
+    padding-left: 5px;
+    display: block;
+}
+.about h3{
+    color: grey;
+    justify-content: left;
+    font-size: 15px;
+    width: 20%;
+    margin: 15px 0px;
+    position: relative;
+    top: 30px;
+}
+.about p{
+    justify-content: left;
+    padding: 0px 30px;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 140px;
+}
+.read_more_btn{
+    color: #2874f0;
+    justify-content: center;
+    position: relative;
+    left: 170px;
+}
+.more_text{
+    display: none;
+}
+.more_text--show{
+    display: inline;
+    color: black;
+}
+.specifications{
+    display:block;
+    margin: 15px 0px;
+    outline: 1px solid rgb(209, 208, 208);
+}
+.specifications h2{
+    padding: 20px 20px;
+}
+.general, .product_details, .connectivity, .camera, .fitness, .audio_video, .watch_warranty{
+    padding: 20px 20px;
+    margin-bottom: -10px;
+    border-top: 1px solid rgb(209, 208, 208);
+}
+.wrap span{
+    display:block;
+    width: 20%;
+    color: rgb(148, 145, 145);
+    font-size: 14px;
+}
+.wrap p{
+    display:block;
+    position: relative;
+    margin-top: -25px;
+    margin-left: 150px;
+    font-size: 14px;
+    padding: 10px 0px;
+}
+.wrap{
+    padding: 10px 0px;
+    margin-top: 5px;
+}
+.ratings h2{
+    padding: 15px 0px;
+}
+.ratings div{
+    display: block;
+}
+.rating_block{
+    display: block;
+    width: 150px;
+    justify-content: center;
+}
+.rating_block span{
+    font-size: 40px;
+    padding: 10px 40px;
+}
+.rating_block p{
+    font-size: 15px;
+    padding: 5px 20px;
+    width: 150px;
+    color: grey;
+}
+.rating_line{
+    width:300px;
+    position: relative;
+    top: -90px;
+    left: 160px;
+}  
+.rating_line div{
+    display: flex;
+}
+.line{
+    height: 5px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: rgb(204, 200, 200);
+    margin: 2px 10px;
+    position: relative;
+    top: 5px;
+    min-width: 99%;
+}
+.number{
+    color: grey;
+    font-size: 12px;
+    top: 5px;
+}
+.five{
+    background-color: green;
+}
+.four{
+    background: linear-gradient(to right, green 40%, grey 60%)
+}
+.three{
+    background: linear-gradient(to right, rgba(0, 128, 0, 0.897) 15%, grey 85%)
+}
+.two{
+    background: linear-gradient(to right, orange 20%, grey 80%)
+}
+.one{
+    background: linear-gradient(to right, orange 2%, grey 98%)
+}
+.similar{
+    width:100%;    
+}
+.products{
+    display: flex;
+    margin-top: 3600px;
+    margin-bottom: 10px;
+    box-shadow: -5px -0px 5px rgba(0,0,0,0.1),
+    5px 5px 5px rgba(0,0,0,0.1);
+}
+.similar h2{
+    display: inline;
+    position: relative;
+    bottom: -3650px;
+    padding-left: 10px;
+}
+.similar_watches{
+    margin: 10px 10px;
+    margin-top: 60px;
+    padding: 10px 20px;
+    width: 250px;
+}
+.similar_watches img{
+    height: 180px;
+    display: block;
+}
+.similar_watches a{
+    padding: 5px 0px;
+    color: black;
+    text-decoration: none;
+}
+.similar_watches a:hover{
+    color: #2874f0;
+}
+.rating, .review{
+    display: flex;
+}
+.rating span{
+    background-color: rgb(1, 128, 1);
+    border-radius: 2px;
+    color: white;
+    padding: 1px 5px;
+    margin: 10px 1px;
+}
+.rating p, .review p{
+    color: rgb(109, 106, 106);
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
+}
+.rating img{
+    height: 25px;
+    position: relative;
+    top: 5px;
+}
+.review span{
+    background-color: rgb(1, 128, 1);
+    border-radius: 2px;
+    color: white;
+    font-size: 13px;;
+    padding: 2px 2px;
+    margin: 10px 1px;
+}
+.review img{
+    height: 20px;
+    position: relative;
+    top: 10px;
+}
+.similar .price span{
+    font-size: 14px;
+    margin-left: -8px;
+}
+.similar .price s{
+    font-weight:500;
+    font-size: 16px;
+    margin-left: 5px;
+}
+#form{
+    visibility: hidden;
+    margin: 20px 50px;
+}
+#btn{
+    margin: -10px 2px;
+    padding: 10px 5px;
+    background-color: #2874f0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    position:relative;
+    right: -250px;
+}
+#form p{
+    margin: 10px 10px;
+}
+#form input, #form select{
+    margin-left: 50px;
+    box-shadow: -5px -0px 5px rgba(0,0,0,0.1),
+    5px 5px 5px rgba(0,0,0,0.1);
+    border: 1px solid rgb(165, 161, 161);
+}
+#form textarea{
+    border: 1px solid rgb(165, 161, 161);
+    box-shadow: -5px -0px 5px rgba(0,0,0,0.1),
+    5px 5px 5px rgba(0,0,0,0.1);
+    margin-left: 95px;
+}
+#form span{
+    margin-top: 0px;
+    display: block;
+}
+.star{
+    display: flex;
+}
+.write_review{
+    margin: 20px 0px;
+}
